@@ -1,0 +1,35 @@
+input {
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+textarea {
+    border-radius: 8px;
+}
+
+input:invalid, textarea:invalid {
+    border: red 2px solid;
+}
+
+.redStar {
+    color: red;
+}
+
+#validationInfo {
+    color: red;
+    border: 1px red solid;
+}
+
+#editableTable {
+    border: 1px solid #ccc;
+
+}
+
+#editableTable > tbody > tr > th:first-child, #editableTable > tbody > tr > th:nth-child(2) {
+    width: 250px;
+}
+
+#editableTable th {
+    color: white;
+    background-color: black;
+}
